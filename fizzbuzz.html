@@ -192,6 +192,42 @@ $(document).ready(function () {
 
 
 <p>This document contains student solutions to the fizzbuzz problem. Students will add to this file using the outline below. Write your name (using three hashtags), then below create an R code block and insert your code. Save the .rmd file, then knit the document to update the html output. Then submit a pull request to merge your changes to the main repository.</p>
+<div id="melissa-horger" class="section level3">
+<h3>Melissa Horger</h3>
+<pre class="r"><code>FB &lt;- c(1:100) 
+
+for (i in 1:100) {
+ if (i%%3==0)
+   FB[i]&lt;-&quot;Fizz&quot;
+}
+for (j in 1:100){
+  if (j%%5==0)
+    FB[j]&lt;-&quot;Buzz&quot;
+}
+for (k in 1:100){
+  if (k%%3 ==0 &amp; k%%5 == 0)
+    FB[k]&lt;-&quot;FizzBuzz&quot;
+}
+
+print(FB)</code></pre>
+<pre><code>##   [1] &quot;1&quot;        &quot;2&quot;        &quot;Fizz&quot;     &quot;4&quot;        &quot;Buzz&quot;     &quot;Fizz&quot;    
+##   [7] &quot;7&quot;        &quot;8&quot;        &quot;Fizz&quot;     &quot;Buzz&quot;     &quot;11&quot;       &quot;Fizz&quot;    
+##  [13] &quot;13&quot;       &quot;14&quot;       &quot;FizzBuzz&quot; &quot;16&quot;       &quot;17&quot;       &quot;Fizz&quot;    
+##  [19] &quot;19&quot;       &quot;Buzz&quot;     &quot;Fizz&quot;     &quot;22&quot;       &quot;23&quot;       &quot;Fizz&quot;    
+##  [25] &quot;Buzz&quot;     &quot;26&quot;       &quot;Fizz&quot;     &quot;28&quot;       &quot;29&quot;       &quot;FizzBuzz&quot;
+##  [31] &quot;31&quot;       &quot;32&quot;       &quot;Fizz&quot;     &quot;34&quot;       &quot;Buzz&quot;     &quot;Fizz&quot;    
+##  [37] &quot;37&quot;       &quot;38&quot;       &quot;Fizz&quot;     &quot;Buzz&quot;     &quot;41&quot;       &quot;Fizz&quot;    
+##  [43] &quot;43&quot;       &quot;44&quot;       &quot;FizzBuzz&quot; &quot;46&quot;       &quot;47&quot;       &quot;Fizz&quot;    
+##  [49] &quot;49&quot;       &quot;Buzz&quot;     &quot;Fizz&quot;     &quot;52&quot;       &quot;53&quot;       &quot;Fizz&quot;    
+##  [55] &quot;Buzz&quot;     &quot;56&quot;       &quot;Fizz&quot;     &quot;58&quot;       &quot;59&quot;       &quot;FizzBuzz&quot;
+##  [61] &quot;61&quot;       &quot;62&quot;       &quot;Fizz&quot;     &quot;64&quot;       &quot;Buzz&quot;     &quot;Fizz&quot;    
+##  [67] &quot;67&quot;       &quot;68&quot;       &quot;Fizz&quot;     &quot;Buzz&quot;     &quot;71&quot;       &quot;Fizz&quot;    
+##  [73] &quot;73&quot;       &quot;74&quot;       &quot;FizzBuzz&quot; &quot;76&quot;       &quot;77&quot;       &quot;Fizz&quot;    
+##  [79] &quot;79&quot;       &quot;Buzz&quot;     &quot;Fizz&quot;     &quot;82&quot;       &quot;83&quot;       &quot;Fizz&quot;    
+##  [85] &quot;Buzz&quot;     &quot;86&quot;       &quot;Fizz&quot;     &quot;88&quot;       &quot;89&quot;       &quot;FizzBuzz&quot;
+##  [91] &quot;91&quot;       &quot;92&quot;       &quot;Fizz&quot;     &quot;94&quot;       &quot;Buzz&quot;     &quot;Fizz&quot;    
+##  [97] &quot;97&quot;       &quot;98&quot;       &quot;Fizz&quot;     &quot;Buzz&quot;</code></pre>
+</div>
 <div id="jeff-kravitz" class="section level3">
 <h3>Jeff Kravitz</h3>
 <pre class="r"><code>total &lt;- 1
